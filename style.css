@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Lato:ital,wght@0,300;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+font-weight: 800;
+
+    
+}
+html{
+    font-size: 62.5%;
+
+}
+
+.main-div{
+    width: 150vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: right;
+    padding: 250px;
+    padding-top: 180px;
+    padding-left: 30px;
+    margin-left: 50px;
+   
+}
+.inner-div{
+   
+    width: 50vw;
+    height: 60vh;
+    background-color: plum;
+padding-top: 5px;
+padding-left: 20px;
+border-radius: 50px;
+box-shadow: 5px 5px 60px 60px rgb(38, 9, 155);
+border: 8px solid rgb(87, 9, 155);
+
+}
+
+
+/* .rightside img{
+   
+        height: 450px;
+        width: 300px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+    d
+    
+} */
+.inner-div h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: underline;
+    padding-left: 30px;
+    margin: 2rem 0 4rem 0;
+ color: rgb(203, 23, 23);
+}
+input{
+    cursor: pointer;
+}
+.inner-div li{
+font-size: 30px;
+padding-left: 5px;
+list-style: none;
+margin-top: 1rem;
+color: #0d0903;
+}
+ #submit,.btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 800;
+    display: block;
+    margin: auto;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-transform: uppercase;
+  columns: #fff;
+  background-color: lightyellow;
+  margin-top: 30px;
+cursor: pointer;
+ }
+#submit:hover{
+    background-color: rgb(200, 0, 255);
+}
+
+
+
+#showscore{
+    background-color: #ed8e09;
+    margin-top: 5rem;
+    padding: 0rem 4rem 0rem 0rem;
+    border-radius: 30px;
+margin-right: 40px;
+margin-bottom: 100px;
+
+margin-left: 30px;
+margin-top: 0px;
+
+}
+ .scorearea{
+    display: none;
+
+ }
+
+ #showscore h3{
+    font-size: 3rem;
+text-align: center;
+padding-top: 20px;
+
+ }
+ #showscore .btn{
+    margin-bottom: 10px;
+    margin-top: 1rem;
+   
+ }
+ .btn{
+padding-bottom: 5px;
+margin-left: 240px;
+ }
+ #showscore .btn:hover{
+    background-color: rgb(200, 0, 255);
+}
+
+
+
+body{
+   
+    
+    background-image:url("bg.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ max-width: 500vh;
+border-radius: 50px;
+
+  
+}
+
+.leftside img{
+    height: 350px;
+        width: 350px;
+        padding-bottom: 50px;
+        padding-left: 5px;
+        margin-left:80px;
+        border-radius: 20px;
+        padding-right: 10px;
+        margin-bottom: 400px;
+        margin-top: 0px;
+}
